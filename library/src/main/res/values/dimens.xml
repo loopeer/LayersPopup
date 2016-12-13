@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="primary_layer__text_size">16sp</dimen>
+    <dimen name="secondary_layer_text_size">16sp</dimen>
+    <dimen name="tertiary_layer_text_size">16sp</dimen>
+    <dimen name="primary_item_height">64dp</dimen>
+    <dimen name="secondary_item_height">64dp</dimen>
+    <dimen name="tertiary_item_height">64dp</dimen>
+    <dimen name="item_padding">8dp</dimen>
+    <dimen name="layers_height">360dp</dimen>
+    <dimen name="layer_divider_height">0.5dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.internal.ForegroundLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/primary_item_height"
+    android:paddingLeft="@dimen/item_padding"
+    android:foreground="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/text_first_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="@color/primary_layer_text"
+        android:textSize="@dimen/primary_layer__text_size"
+        tools:text="first column"/>
+</android.support.design.internal.ForegroundLinearLayout>

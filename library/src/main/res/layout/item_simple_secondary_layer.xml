@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.internal.ForegroundLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/secondary_item_height"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/item_padding"
+    android:foreground="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/text_second_layer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="@color/secondary_layer_text"
+        android:textSize="@dimen/secondary_layer_text_size"
+        tools:text="first column"/>
+
+    <View
+        android:background="@color/divider_layers"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</android.support.design.internal.ForegroundLinearLayout>
